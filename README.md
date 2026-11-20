@@ -14,3 +14,4 @@ Modular Infrastructure as Code (Terraform), Linux server hardening, and CI/CD au
 - `.github/workflows/terraform-ci.yml` — Automated Terraform `fmt` and `validate` CI pipeline
 - `project8/` — Build and Run Docker App Locally
 - `project11/` — Infra Changes with Branching Policy (Feature Branch & PR Review)
+- `project12/` — Infrastructure CI Trigger (Terraform Plan & Artifact Upload)
