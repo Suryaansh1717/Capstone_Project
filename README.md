@@ -12,3 +12,4 @@ Modular Infrastructure as Code (Terraform), Linux server hardening, and CI/CD au
 - `project5/` — Secure Linux Server Permissions
 - `project6/` — Version Control Infrastructure with Git & Pull Requests
 - `.github/workflows/terraform-ci.yml` — Automated Terraform `fmt` and `validate` CI pipeline
+- `project8/` — Build and Run Docker App Locally
