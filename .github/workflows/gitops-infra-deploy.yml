@@ -1,0 +1,47 @@
+name: Project 18 - GitOps Infra Deployment
+
+on:
+  pull_request:
+    types: [closed]
+    branches:
+      - main
+    paths:
+      - 'project18/**'
+      - '.github/workflows/gitops-infra-deploy.yml'
+
+jobs:
+  terraform-plan:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout merged code
+        uses: actions/checkout@v4
+
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v3
+
+      - name: Terraform Init & Plan
+        working-directory: project18
+        run: |
+          terraform init
+          terraform plan -out=tfplan
+
+  terraform-apply:
+    needs: terraform-plan
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    environment:
+      name: production
+    steps:
+      - name: Checkout merged code
+        uses: actions/checkout@v4
+
+      - name: Setup Terraform
+        uses: hashicorp/setup-terraform@v3
+
+      - name: Terraform Init & Apply (Approved)
+        working-directory: project18
+        run: |
+          terraform init
+          terraform apply -auto-approve
+          cat deployed-infra.json
