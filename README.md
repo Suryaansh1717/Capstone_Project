@@ -19,3 +19,4 @@ Modular Infrastructure as Code (Terraform), Linux server hardening, and CI/CD au
 - `project14/` — App Deployment using Amazon EKS
 - `project15/` — Automate Server Configuration with Ansible
 - `project17/` — Centralized Log Forwarding to AWS CloudWatch
+- `project18/` — GitOps Infrastructure Deployment via PR Merges & Approval Gate
