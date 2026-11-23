@@ -21,3 +21,4 @@ Modular Infrastructure as Code (Terraform), Linux server hardening, and CI/CD au
 - `project17/` — Centralized Log Forwarding to AWS CloudWatch
 - `project18/` — GitOps Infrastructure Deployment via PR Merges & Approval Gate
 - `project19/` — Scheduled S3 Log Backup Automation via Cron
+- `project19/` — Scheduled S3 Log Backup Automation via Cron
