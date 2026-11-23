@@ -15,3 +15,4 @@ Modular Infrastructure as Code (Terraform), Linux server hardening, and CI/CD au
 - `project8/` — Build and Run Docker App Locally
 - `project11/` — Infra Changes with Branching Policy (Feature Branch & PR Review)
 - `project12/` — Infrastructure CI Trigger (Terraform Plan & Artifact Upload)
+- `project13/` — Build Docker Image and Push to Amazon ECR
