@@ -18,3 +18,4 @@ Modular Infrastructure as Code (Terraform), Linux server hardening, and CI/CD au
 - `project13/` — Build Docker Image and Push to Amazon ECR
 - `project14/` — App Deployment using Amazon EKS
 - `project15/` — Automate Server Configuration with Ansible
+- `project17/` — Centralized Log Forwarding to AWS CloudWatch
