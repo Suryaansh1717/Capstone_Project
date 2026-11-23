@@ -1,0 +1,2 @@
+# Run log backup to S3 every 5 minutes
+*/5 * * * * /home/clouduser/Capstone_Project/project19/backup_logs_to_s3.sh
