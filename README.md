@@ -13,6 +13,7 @@ Modular Infrastructure as Code (Terraform), Linux server hardening, and CI/CD au
 - `project6/` — Version Control Infrastructure with Git & Pull Requests
 - `.github/workflows/terraform-ci.yml` — Automated Terraform `fmt` and `validate` CI pipeline
 - `project8/` — Build and Run Docker App Locally
+- `Project 9/` — Multi-Container Orchestration with Docker Compose
 - `project11/` — Infra Changes with Branching Policy (Feature Branch & PR Review)
 - `project12/` — Infrastructure CI Trigger (Terraform Plan & Artifact Upload)
 - `project13/` — Build Docker Image and Push to Amazon ECR
@@ -21,4 +22,8 @@ Modular Infrastructure as Code (Terraform), Linux server hardening, and CI/CD au
 - `project17/` — Centralized Log Forwarding to AWS CloudWatch
 - `project18/` — GitOps Infrastructure Deployment via PR Merges & Approval Gate
 - `project19/` — Scheduled S3 Log Backup Automation via Cron
-- `project19/` — Scheduled S3 Log Backup Automation via Cron
+- `project20/` — Application Load Balancer Setup & Traffic Routing
+- `project21/` — Auto Scaling Group & High Availability
+- `project22/` — S3 Lifecycle & Backup Policies
+- `project23/` — IAM Role Based Access for S3
+- `project24/` — Manual Chaos Test & Failover Recovery
